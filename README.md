@@ -162,3 +162,17 @@ Result :
 
 We have successfully trained the model with 10K+ images of fruits and vegetables to detect
 diseases in them and obtained 98% accuracy.
+## Results
+
+### Model Performance
+![Training Loss](loss.png)
+![Model Accuracy](accuracy.png)
+
+### Files
+- `main_file.py` - Run this file to start the project
+- `GUI_Master.py` - Vegetable disease detection GUI
+- `GUI_Master_fruit.py` - Fruit disease detection GUI
+- `*.h5` - Pre-trained CNN models
+
+### Tech Stack
+Python, TensorFlow/Keras, Tkinter, CNN
